@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: url(./main_bg.png) center center/cover no-repeat;
+}
+.osbov {
+    width: 1440px;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space;
+}
+
+.my_phot {
+    width: 336px;
+    height: 448px;
+    border: 5px solid #F9BF3B;
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+
+.info {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.list_section_palka{
+    width: 30vh;
+    height: 0.5vh;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+}
+h2 {
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info_text {
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.crug {
+    width: 20px;
+    height: 20px;
+    background-color: #F9BF3B;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.basic_information {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.my_inst {
+    width: 64px;
+    height: 36px;
+}
+
+.my_git {
+    width: 12px;
+    height: 12px;
+}
+.im {
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.navic {
+    margin: 20px 0;
+}
